@@ -72,9 +72,9 @@ nav {
   color: #60c6e2;
 }
 
-.active {
-  /* text-shadow: 0 0 3px #3d535f; */
-}
+/* .active {
+ text-shadow: 0 0 3px #3d535f; 
+} */
 
 .social-links a {
   font-size: 30px;
@@ -100,7 +100,7 @@ nav {
   border-radius: 50%;
   left: -12%;
   top: 40%;
-  background: linear-gradient(45deg, #7f00ff,  pink);
+  background: linear-gradient(45deg, #7f00ff, pink);
   animation: object1 6s linear infinite;
 }
 
@@ -120,7 +120,7 @@ nav {
   width: 50%;
 }
 
-.col-1{
+.col-1 {
   width: 60%;
   z-index: 5;
 }
@@ -221,14 +221,14 @@ p {
 }
 
 @keyframes object1 {
-  50%{
+  50% {
     left: -13%;
     top: 41%;
   }
 }
 
 @keyframes object2 {
-  50%{
+  50% {
     left: 35%;
     top: 10%;
   }
